@@ -5,6 +5,7 @@ GET Request
 String getURL = "https://www.somewebsite.com/api/param1=value1&param2=value2";
 String getResponse = new HTTPURLConnection().GET(getURL);
 
+
 POST Request
 String postURL = "https://www.somewebsite.com/api";
 String postResponse = new HTTPURLConnection().POST(postURL);
